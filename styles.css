@@ -1,0 +1,67 @@
+/* CSS Reset */
+body, header, nav, main, footer, img, h1, h3, ul, aside, figure, figcaption, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/* General Font & Body Styling */
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #333;
+    background-color: #fafbfc;
+}
+/* Style Rules for Brand Logo */
+.brand-logo {
+    height: 40px;           
+    width: auto;            
+    object-fit: contain;
+}
+/* Navbar Branding */
+.navbar-brand {
+    font-size: 2.35rem;
+    letter-spacing: -0.5px;
+   }
+/* Style Rules For Footer Content */
+   footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.95em;
+    padding-top: 1em;
+    padding-bottom: 0.25em;
+}
+/* Styling for the blue pill button */
+.pill-button {
+            display: inline-block;
+            background-color: #0056b3; /* Vibrant blue */
+            color: #ffffff; /* White text */
+            padding: 12px 28px;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            font-weight: 600;
+            text-decoration: none;
+            border-radius: 50px; /* Creates the pill shape */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.2s ease, transform 0.1s ease;
+}
+.pill-button:hover {
+            background-color: #004085; /* Darker blue */
+            transform: translateY(-1px);
+}
+/* Adjustments for smaller desktops/tablets (below 1200px) */
+@media (max-width: 1200px) {
+    .navbar .navbar-link {
+        font-size: 0.9rem; 
+        padding-left: 0.6rem;
+        padding-right: 0.6rem;
+    }
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+}
+/* Adjustments to hamburger menu desktops/tablets (below 991px) */
+@media (max-width: 991px) {
+    .navbar-toggler {
+        float: right
+    }
+}
