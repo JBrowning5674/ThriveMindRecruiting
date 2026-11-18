@@ -65,3 +65,357 @@ body{
         float: right
     }
 }
+/* Global Reset & Base Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+/* Sage green background matching mockup */
+body {
+    background-color: #d9dec5; 
+    line-height: 1.6;
+}
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+}
+.logo-img {
+    height: 55px;
+    width: auto;
+}
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.auth-nav a {
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+}
+.auth-nav a:hover {
+    text-decoration: underline;
+}
+/* Main Content Area */
+.main-content {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+/* Identity Section */
+.identity-section {
+    margin-bottom: 50px;
+}
+.badge-black {
+    background-color: #000000;
+    color: #ffffff;
+    display: inline-block;
+    padding: 6px 18px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.identity-section h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #111;
+}
+.intro-text {
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: #222;
+}
+/* Sub-tabs */
+.sub-tabs {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+.tab-black {
+    background-color: #000;
+    color: #fff;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.tab-white {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+}
+/* Story & Mission Section */
+.story-section h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #111;
+}
+.story-text {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+/* Cards Layout */
+.cards-container {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.card {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 30px;
+    flex: 1;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+.card h3 {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #111;
+}
+.card p {
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    line-height: 1.5;
+}
+/* Footer CTA Bar */
+.footer-cta {
+    background-color: #000000;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 20px;
+    border-top: 3px solid #000;
+}
+.cta-button {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 10px 25px;
+    border-radius: 6px;
+    font-size: 11px;
+    line-height: 1.3;
+    cursor: pointer;
+    border: 1px solid #000;
+    font-weight: bold;
+}
+.cta-button:hover {
+    background-color: #ffffff;
+}
+/* Global Reset & Base Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+body {
+    background-color: #d9dec5; /* Sage green background matching mockup */
+    color: #111;
+    line-height: 1.6;
+}
+
+/* Top Utility Bar for My Account / Login & Phone */
+.top-utility-bar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    padding: 8px 40px;
+    font-size: 13px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.auth-nav a {
+    color: #333;
+    text-decoration: none;
+}
+.auth-nav a:hover {
+    text-decoration: underline;
+}
+.phone-badge {
+    background-color: #e5e5d1;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 4px 14px;
+    font-weight: bold;
+    font-size: 13px;
+}
+/* Main Header Row (Logo, Nav, CTA) */
+.main-header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 40px;
+}
+
+.logo-img {
+    height: 45px;
+    width: auto;
+}
+
+/* Navigation Menu and Bar */
+.main-nav {
+    background-color: #000000;
+    padding: 0 40px;
+}
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.main-nav li a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding: 12px 0;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+.main-nav li a:hover, .main-nav li a.active {
+    color: #a3b18b;
+}
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.main-nav li a {
+    color: #444;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.main-nav li a:hover, .main-nav li a.active {
+    color: #000;
+    font-weight: bold;
+}
+
+/* Get in Touch Button */
+.btn-get-in-touch {
+    background-color: #0070f3;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.btn-get-in-touch:hover {
+    background-color: #0051d5;
+}
+
+/* Main Content Area */
+.main-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Identity / Hero Section with Smaller Height */
+.identity-section {
+    background-color: #d9dec5;
+    text-align: center;
+    padding: 35px 20px; /* Reduced padding for smaller box height */
+    margin-bottom: 40px;
+}
+
+.hero-title {
+    font-size: 32px;
+    font-weight: normal;
+    color: #1a1a1a;
+    margin-bottom: 10px;
+}
+
+.intro-text {
+    font-size: 14px;
+    color: #333;
+}
+
+/* Story & Mission Section */
+.story-section h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #111;
+}
+
+.story-text {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+/* Cards Layout */
+.cards-container {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 30px;
+    flex: 1;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.card h3 {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #111;
+}
+
+.card p {
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    line-height: 1.5;
+}
+
+/* Footer CTA Bar */
+.footer-cta {
+    background-color: #000000;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 20px;
+    border-top: 3px solid #000;
+}
+
+.cta-button {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 10px 25px;
+    border-radius: 6px;
+    font-size: 11px;
+    line-height: 1.3;
+    cursor: pointer;
+    border: 1px solid #000;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.cta-button:hover {
+    background-color: #f0f0f0;
+}
